@@ -1,0 +1,78 @@
+<GradeBook class="CSE 598">
+	<GradingSchema>
+		<GradeItem>
+			<Category>Exams</Category>
+			<Percentage>60</Percentage>
+		</GradeItem>
+		<GradeItem>
+			<Category>Assignments</Category>
+			<Percentage>20</Percentage>
+		</GradeItem>
+		<GradeItem>
+			<Category>Programming Assignments</Category>
+			<Percentage>20</Percentage>
+		</GradeItem>
+	</GradingSchema>
+	<Grades>
+		<Student>
+			<Name>Clark Kent</Name>
+			<ID>555-12-3456</ID>
+			<AssignedWork category="Exams">
+				<GradedWork>
+					<Name>Mid Term</Name>
+					<Grade>B</Grade>
+				</GradedWork>
+				<GradedWork>
+					<Name>Final</Name>
+					<Grade>B-</Grade>
+				</GradedWork>
+			</AssignedWork>
+			<AssignedWork category="Assignments">
+				<GradedWork>
+					<Name>Abbott</Name>
+					<Grade>A</Grade>
+				</GradedWork>
+				<GradedWork>
+					<Name>CRC</Name>
+					<Grade>A+</Grade>
+				</GradedWork>
+			</AssignedWork>
+			<AssignedWork category="Programming Assignments">
+				<GradedWork>
+					<Name>Cretional Patterns</Name>
+					<Grade>A+</Grade>
+				</GradedWork>
+			</AssignedWork>
+		</Student>
+		<Student>
+			<Name>Bruce Wayne</Name>
+			<ID>555-12-6543</ID>
+			<AssignedWork category="Exams">
+				<GradedWork>
+					<Name>Mid Term</Name>
+					<Grade>B+</Grade>
+				</GradedWork>
+				<GradedWork>
+					<Name>Final</Name>
+					<Grade>D</Grade>
+				</GradedWork>
+			</AssignedWork>
+			<AssignedWork category="Assignments">
+				<GradedWork>
+					<Name>Abbott</Name>
+					<Grade>B</Grade>
+				</GradedWork>
+				<GradedWork>
+					<Name>CRC</Name>
+					<Grade>C+</Grade>
+				</GradedWork>
+			</AssignedWork>
+			<AssignedWork category="Programming Assignments">
+				<GradedWork>
+					<Name>Cretional Patterns</Name>
+					<Grade>C</Grade>
+				</GradedWork>
+			</AssignedWork>
+		</Student>
+	</Grades>
+</GradeBook>
